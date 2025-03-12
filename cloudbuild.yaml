@@ -24,3 +24,5 @@ steps:
 
 images:
   - 'gcr.io/$PROJECT_ID/flask-firebase-app'
+options:
+  logging: CLOUD_LOGGING_ONLY
